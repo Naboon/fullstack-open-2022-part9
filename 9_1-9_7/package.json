@@ -4,14 +4,15 @@
   "description": "Exercises 9.1-9.7.",
   "main": "index.js",
   "scripts": {
-    "calculateBmi": "ts-node bmiCalculator.ts"
+    "calculateBmi": "ts-node bmiCalculator.ts",
+    "calculateExercises": "ts-node exerciseCalculator.ts"
   },
   "repository": {
     "type": "git",
     "url": "github.com/Naboon/fullstack-open-2022-part9.git"
   },
   "author": "Jesse Toivanen",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.8.2",
     "typescript": "^4.7.4"

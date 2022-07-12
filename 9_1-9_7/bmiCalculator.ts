@@ -1,6 +1,4 @@
-type Result = string;
-
-const calculateBmi = (h: number, w: number): Result => {
+const calculateBmi = (h: number, w: number): string => {
   const bmi: number = (w / (h / 100)**2);
   const bmiFixed: string = bmi.toFixed(1);
   console.log('Your BMI: ' + bmiFixed);
